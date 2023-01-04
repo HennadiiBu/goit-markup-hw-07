@@ -228,7 +228,7 @@ body {
   margin: auto;
 }
 
-.hero__button {
+.hero-button {
   width: 216px;
   height: 50px;
   transition-property: background-color;
@@ -236,12 +236,12 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero__button:hover,
-.hero__button:focus {
+.button:hover,
+.button:focus {
   background-color: var(--button-hero-active);
 }
 
-.hero__button--primary {
+.button--primary {
   background-color: var(--accent-color);
   border-radius: 4px;
   color: var(--main-background);
@@ -253,7 +253,7 @@ body {
   border: none;
 }
 
-.hero__button--position {
+.button--position {
   left: 50%;
   margin: 0 auto;
   display: block;
@@ -809,7 +809,7 @@ body {
   color: var(--accent-color);
 }
 
-.button.secondary {
+.button--secondary {
   background-color: var(--button-bkg-color);
   border-radius: 4px;
   color: var(--main-color);
@@ -824,17 +824,22 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button.secondary:hover,
-.button.secondary:focus {
+.button--secondary:hover,
+.button--secondary:focus {
   background-color: var(--accent-color);
   color: var(--main-background);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.box-projects-button-primary {
+.button--prime-box {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  padding: 6px 25px;
+}
+
+.button--sec-box {
+  padding: 6px 22px;
 }
 
 .current::after {
@@ -907,16 +912,6 @@ body {
 .projects {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.box-projects-button {
-  padding: 6px 22px;
-  border-radius: 4px;
-}
-
-.box-projects-button-primary {
-  padding: 6px 25px;
-  border-radius: 4px;
 }
 
 .project-desc-overay {
