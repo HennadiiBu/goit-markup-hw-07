@@ -367,35 +367,35 @@ body {
 
 /* TEAM */
 
-.section-team {
+.team {
   background-color: var(--button-bkg-color);
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.box-our-team {
+.our-team {
   display: flex;
   gap: 30px;
   margin-top: 50px;
 }
 
-.box-team-title {
+.our-team__card {
   text-align: center;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-.box-team-text {
+.our-team__text {
   text-align: center;
 }
 
-.our-team {
+.our-team__box {
   background-color: var(--main-background);
   padding: 30px;
 }
 
-.box-team-name {
+.our-team__name {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -403,7 +403,13 @@ body {
   letter-spacing: 0.03em;
 }
 
-.social-link {
+.social {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.social__link {
   width: 44px;
   height: 44px;
   display: inline-flex;
@@ -416,8 +422,8 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover,
-.social-link:focus {
+.social__link:hover,
+.social__link:focus {
   background-color: var(--accent-color);
   fill: var(--main-background);
 }
@@ -657,12 +663,6 @@ body {
 .box-projects-button-primary {
   padding: 6px 25px;
   border-radius: 4px;
-}
-
-.social-list {
-  display: flex;
-  gap: 10px;
-  margin-top: 16px;
 }
 
 .conteiner.box {
