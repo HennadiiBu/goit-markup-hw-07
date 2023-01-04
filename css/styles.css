@@ -430,19 +430,19 @@ body {
 
 /* CLIENTS */
 
-.section-clients {
+.clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.box-clients {
+.clients__box {
   display: flex;
   gap: 30px;
   justify-content: center;
   align-items: center;
 }
 
-.clients-link {
+.clients__link {
   display: flex;
   width: 170px;
   height: 92px;
@@ -460,13 +460,13 @@ body {
   margin: 16px 32px;
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
 
-.clients-header {
+.clients__title {
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
