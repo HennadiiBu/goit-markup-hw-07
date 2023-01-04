@@ -53,6 +53,14 @@ body {
   margin: 0px;
 }
 
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.666;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .conteiner {
   width: 1200px;
   padding: 0px 15px;
@@ -321,18 +329,18 @@ body {
 
 /* WORKS */
 
-.section-works {
+.works {
   padding-bottom: 94px;
 }
 
-.box-works-list {
+.work-list {
   display: flex;
   gap: 30px;
   margin-top: 50px;
   padding-left: 0;
 }
 
-.work-sign {
+.work-list__signbox {
   background-color: var(--work-sign-bkg);
   height: 70px;
   position: absolute;
@@ -340,11 +348,11 @@ body {
   top: 224px;
 }
 
-.work {
+.work-list__card {
   position: relative;
 }
 
-.work-sign-text {
+.work-list__signtext {
   color: var(--main-background);
   text-transform: uppercase;
   font-size: 14px;
