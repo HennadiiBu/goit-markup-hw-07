@@ -219,7 +219,7 @@ body {
   margin-right: auto;
 }
 
-.hero-title {
+.hero__title {
   color: var(--main-background);
   font-weight: 900;
   font-size: 44px;
@@ -232,7 +232,7 @@ body {
   margin: auto;
 }
 
-.hero-button {
+.hero__button {
   width: 216px;
   height: 50px;
   transition-property: background-color;
@@ -240,12 +240,12 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero__button:hover,
+.hero__button:focus {
   background-color: var(--button-hero-active);
 }
 
-.button.primary {
+.hero__button--primary {
   background-color: var(--accent-color);
   border-radius: 4px;
   color: var(--main-background);
@@ -257,7 +257,7 @@ body {
   border: none;
 }
 
-.box-hero-button {
+.hero__button--position {
   left: 50%;
   margin: 0 auto;
   display: block;
