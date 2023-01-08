@@ -10,19 +10,19 @@
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
-}
 
-.hero__title {
-    color: var(--main-background);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.363;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    width: 696px;
-    box-sizing: content-box;
-    margin: auto;
+    &__title {
+            color: var(--main-background);
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.363;
+            text-align: center;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            width: 696px;
+            box-sizing: content-box;
+            margin: auto;
+        }
 }
 
 .hero-button {
